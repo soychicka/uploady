@@ -43,7 +43,7 @@ class UploadsController < ApplicationController
     puts params[:upload]
     puts params[:upload][:file]
     file = params[:upload][:file]
-    @upload = Upload.new(:content => file.read, :name => file.original_path)
+    @upload = Upload.new(:name => file.original_path, :content => file.read )
     
     respond_to do |format|
       if @upload.save

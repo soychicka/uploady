@@ -1255,3 +1255,8 @@ Processing UploadsController#index (for 127.0.0.1 at 2009-12-14 14:32:51) [GET]
 Rendering template within layouts/uploads
 Rendering uploads/index
 Completed in 41ms (View: 27, DB: 2) | 200 OK [http://localhost/uploads]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (10.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUploads (20091214214302)
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m

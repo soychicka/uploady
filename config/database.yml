@@ -39,8 +39,8 @@ test:
   encoding: unicode
   database: uploady2_test
   pool: 5
-  username: uploady2
-  password:
+  username: soychicka
+  password: Eatveg234
 
 production:
   adapter: postgresql
